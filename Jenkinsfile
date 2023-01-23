@@ -1,9 +1,7 @@
 #!/bin/groovy
 pipeline {
   agent any
-  tools {
-    nodejs 'default-nodejs'
-  }
+ tools {nodejs "node"}
   stages {
     stage('Startup') {
       steps {
