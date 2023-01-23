@@ -21,17 +21,15 @@
   },
   "scripts": {
    "start": "webpack",
-    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
-    ...
   "jest": {
     "coverageReporters": [
       "text",
       "cobertura"
     ]
-    ...
   },
   "eslintConfig": {
     "extends": [
